@@ -14,5 +14,5 @@ router.get("/data", (_, res) => {
   res.send({ key1: "value1", key2: "value2" });
 });
 
-const PORT = 4000;
+const PORT = 80;
 app.listen(PORT, () => console.log("Server is running on Port: " + PORT));
